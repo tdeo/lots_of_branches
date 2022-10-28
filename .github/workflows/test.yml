@@ -1,0 +1,13 @@
+# You can validate this file here: https://rhysd.github.io/actionlint/
+on: [push]
+name: Tests
+
+jobs:
+  job:
+    runs-on: ubuntu-20.04
+    name: Run a job
+
+    steps:
+      - name: Do stuff
+        run: |
+          echo 'stuff'
